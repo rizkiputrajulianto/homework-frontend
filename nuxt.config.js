@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'frontend',
+    title: 'My Classroom',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -9,7 +9,49 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href:
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "/assets/css/style.css"
+      },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "/assets/css/components.css"
+      }
+    ],
+    script: [
+      { src: "https://code.jquery.com/jquery-3.3.1.min.js" },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      },
+      {
+        src:
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"
+      },
+      {
+        src: "/assets/js/stisla.js"
+      },
+      {
+        src: "/assets/js/scripts.js"
+      }
     ]
   },
 
@@ -34,6 +76,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    'nuxt-sweetalert2',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -48,5 +91,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  server: {
+    host: "0.0.0.0",
+    port: 8000 // default: 3000
   }
 }
