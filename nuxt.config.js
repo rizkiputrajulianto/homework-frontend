@@ -77,6 +77,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     'nuxt-sweetalert2',
+    'nuxt-vite',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

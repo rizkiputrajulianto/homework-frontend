@@ -15,5 +15,7 @@
     "nuxt": "^2.15.7",
     "nuxt-sweetalert2": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nuxt-vite": "^0.2.4"
+  }
 }
