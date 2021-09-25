@@ -68,6 +68,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    'nuxt-vite'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -77,7 +78,6 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     'nuxt-sweetalert2',
-    'nuxt-vite',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
