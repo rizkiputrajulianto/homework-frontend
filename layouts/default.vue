@@ -10,7 +10,8 @@
         <div class="main-content">
           <section class="section">
             <div class="section-header">
-              <h1>Blank Page</h1>
+              <!-- {{ $store.state.jadwal.Fullstack.jadwal[1].materi }} ini cara manggil datanya -->
+              <nuxt />
             </div>
 
             <div class="section-body"></div>
