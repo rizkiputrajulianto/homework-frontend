@@ -144,6 +144,12 @@ export const mutations = {
         }
     },
     addMateri(state, data){
-
+         if(list.name === "Fullstack 5"){
+           state.Fullstack.jadwal[data.session].materi = data.materi;
+        } else if(list.name === "Frontend 5"){
+            state.Frontend.jadwal[data.session].materi = data.materi;
+        } else {
+           state.Backend.jadwal[data.session].materi = data.materi;
+        }
     }
 }
