@@ -3,6 +3,7 @@ export const state = () => {
         name : "Fullstack 5", 
         description: "Bootcamp Fullstack 5 adalah bootcamp yang akan memperlajari tentang web developer, dimana peserta akan memperlajari web developer dari segi Frontend dan Backend. Sehingga peserta akan menjadi seorang Fullstack Developer yang handal",
         waktuBootcamp: {mulai: "5 Juli 2021", selesai: "10 Desember 2021"},
+        img: "https://yt3.ggpht.com/ytc/AKedOLS9dWMeg56U0ZEab4dixDnNuhqnp824JIOBuZcc=s900-c-k-c0x00ffffff-no-rj",
         jadwal:[{
             session: 1, judul: "Web Fundamental", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"5 Juli 2021"
         },
@@ -23,6 +24,7 @@ export const state = () => {
         name : "Frontend 5", 
         description: "Bootcamp Frontend 5 adalah bootcamp yang akan memperlajari tentang web developer, dimana peserta akan memperlajari web developer dari segi Frontend. Sehingga peserta akan menjadi seorang Frontend Developer yang handal",
         waktuBootcamp: {mulai: "3 Agustus 2021", selesai: "15 Desember 2021"},
+        img: "https://yt3.ggpht.com/ytc/AKedOLS9dWMeg56U0ZEab4dixDnNuhqnp824JIOBuZcc=s900-c-k-c0x00ffffff-no-rj",
         jadwal:[{
             session: 1, judul: "Web Fundamental", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"3 Agustus 2021", file:""
         },
@@ -42,6 +44,7 @@ export const state = () => {
         name : "Backend 5", 
         description: "Bootcamp Backend 5 adalah bootcamp yang akan memperlajari tentang web developer, dimana peserta akan memperlajari web developer dari segi Backend. Sehingga peserta akan menjadi seorang Backend Developer yang handal",
         waktuBootcamp: {mulai: "3 Agustus 2021", selesai: "15 Desember 2021"},
+        img: "https://yt3.ggpht.com/ytc/AKedOLS9dWMeg56U0ZEab4dixDnNuhqnp824JIOBuZcc=s900-c-k-c0x00ffffff-no-rj",
         jadwal:[{
             session: 1, judul: "Pengenalan", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"3 Agustus 2021", file:""
         },
@@ -61,56 +64,73 @@ export const state = () => {
              tutorSPV:[{
                  name: "Ghany Abdillah Ersa",
                  role: "Tutor",
+                 img: ""
              },
             {
                 name: "Atika Rahmawati",
-                role: "SPV"
+                role: "SPV",
+                img: "",
             }],
             peserta:[{
                 name: "Alvin",
-                role: "Student"
+                role: "Student",
+                img: "",
             },{
                 name: "Catur Rachmadi",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Claudia Ekklesia",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Deta",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Fakhri Rizal",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Gregorious Kevin",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "M Muzzammil Ambiya",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "M Nabil Fadhlurrahman",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "M Rizqi Multazzam",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Nailah Na'fiah",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Rio Crisel",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Rio Judeen",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Roy Rasel",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Rizki Putra",
-                role: "Student"
+                role: "Student",
+                img: ""
             },{
                 name: "Syanintika Safira",
-                role: "Student"
+                role: "Student",
+                img: ""
             },]
          }}
 }
