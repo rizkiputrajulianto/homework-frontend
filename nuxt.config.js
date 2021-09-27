@@ -30,7 +30,12 @@ export default {
         rel: "stylesheet",
         type: "text/css",
         href: "/assets/css/components.css"
-      }
+      },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "/assets/css/custom.css"
+      },
     ],
     script: [
       { src: "https://code.jquery.com/jquery-3.3.1.min.js" },
