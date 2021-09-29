@@ -1,11 +1,11 @@
 export const state = () => {
-    return {Fullstack : {
+    return {data:[{
         name : "Fullstack 5", 
         description: "Bootcamp Fullstack 5 adalah bootcamp yang akan memperlajari tentang web developer, dimana peserta akan memperlajari web developer dari segi Frontend dan Backend. Sehingga peserta akan menjadi seorang Fullstack Developer yang handal",
         waktuBootcamp: {mulai: "5 Juli 2021", selesai: "10 Desember 2021"},
         img: "https://yt3.ggpht.com/ytc/AKedOLS9dWMeg56U0ZEab4dixDnNuhqnp824JIOBuZcc=s900-c-k-c0x00ffffff-no-rj",
         jadwal:[{
-            session: 1, judul: "Web Fundamental", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"5 Juli 2021"
+            session: 1, judul: "Web Fundamental", materi:[{namaMateri: "Introduction", type: "Power Point", file: "Fullstack Intro"},{namaMateri:"Sejarah Fullstack", type: "Word", file:"History"}], tanggal:"5 Juli 2021"
         },
         {
             session: 2, judul: "Web Fundamental", materi:[{namaMateri: "History of HTML", type: "Power Point", file: ""}], tanggal:"7 Juli 2021", file:""
@@ -20,7 +20,7 @@ export const state = () => {
             session: 5, judul: "Web Fundamental", materi:[{namaMateri: "Jquery", type: "Power Point", file: ""}], tanggal:"14 Juli 2021", file:""
         },]
     },
-         Frontend : {
+        {
         name : "Frontend 5", 
         description: "Bootcamp Frontend 5 adalah bootcamp yang akan memperlajari tentang web developer, dimana peserta akan memperlajari web developer dari segi Frontend. Sehingga peserta akan menjadi seorang Frontend Developer yang handal",
         waktuBootcamp: {mulai: "3 Agustus 2021", selesai: "15 Desember 2021"},
@@ -40,7 +40,7 @@ export const state = () => {
         {
             session: 5, judul: "Vue", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"14 Juli 2021", file:""
         },]
-    }, Backend : {
+    },{
         name : "Backend 5", 
         description: "Bootcamp Backend 5 adalah bootcamp yang akan memperlajari tentang web developer, dimana peserta akan memperlajari web developer dari segi Backend. Sehingga peserta akan menjadi seorang Backend Developer yang handal",
         waktuBootcamp: {mulai: "3 Agustus 2021", selesai: "15 Desember 2021"},
@@ -60,7 +60,7 @@ export const state = () => {
         {
             session: 5, judul: "Pembuatan API", materi:[{namaMateri: "Express Js", type: "Power Point", file: ""}], tanggal:"14 Juli 2021", file:""
         },]
-    }, Member: {
+    }], Member: {
              tutorSPV:[{
                  name: "Ghany Abdillah Ersa",
                  role: "Tutor",
@@ -147,29 +147,29 @@ export const actions = {
     }
 }
 
-export const mutations = {
-    ngedit(state, lists){
+// export const mutations = {
+//     ngedit(state, lists){
 
-    },
-    addSession(state, list){
-        if(list.name === "Fullstack 5"){
-            state.Fullstack.jadwal.push(list);
-            state.Fullstack.jadwal.sort((a,b)=>{return a.session - b.session}); //sortir
-        } else if(list.name === "Frontend 5"){
-            state.Frontend.jadwal.push(list);
-            state.Frontend.jadwal.sort((a,b)=>{return a.session - b.session}); //sortir
-        } else {
-            state.Backend.jadwal.push(list);
-            state.Backend.jadwal.sort((a,b)=> {return a.session - b.session}); //sortir
-        }
-    },
-    addMateri(state, data){
-         if(list.name === "Fullstack 5"){
-           state.Fullstack.jadwal[data.session].materi.push(data.materi);
-        } else if(list.name === "Frontend 5"){
-            state.Frontend.jadwal[data.session].materi.push(data.materi);
-        } else {
-           state.Backend.jadwal[data.session].materi.push(data.materi);
-        }
-    }
-}
+//     },
+//     addSession(state, list){
+//         if(list.name === "Fullstack 5"){
+//             state.Fullstack.jadwal.push(list);
+//             state.Fullstack.jadwal.sort((a,b)=>{return a.session - b.session}); //sortir
+//         } else if(list.name === "Frontend 5"){
+//             state.Frontend.jadwal.push(list);
+//             state.Frontend.jadwal.sort((a,b)=>{return a.session - b.session}); //sortir
+//         } else {
+//             state.Backend.jadwal.push(list);
+//             state.Backend.jadwal.sort((a,b)=> {return a.session - b.session}); //sortir
+//         }
+//     },
+//     addMateri(state, data){
+//          if(list.name === "Fullstack 5"){
+//            state.Fullstack.jadwal[data.session].materi.push(data.materi);
+//         } else if(list.name === "Frontend 5"){
+//             state.Frontend.jadwal[data.session].materi.push(data.materi);
+//         } else {
+//            state.Backend.jadwal[data.session].materi.push(data.materi);
+//         }
+//     }
+// }

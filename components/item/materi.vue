@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card shadow bg-warning w-auto">
+    <div class="card shadow bg-warning">
       <div class="row p-3">
         <div class="col-8">
           {{ title }} <br />
