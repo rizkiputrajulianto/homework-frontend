@@ -37,7 +37,7 @@ export default {
         {
           name: "Presensi",
           icon: "fas fa-user",
-          to: "/"
+          to: "/presensi"
         },
       ]
     }
