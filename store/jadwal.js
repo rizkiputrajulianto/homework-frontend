@@ -8,16 +8,16 @@ export const state = () => {
             session: 1, judul: "Web Fundamental", materi:[{namaMateri: "Introduction", type: "Power Point", file: "Fullstack Intro"},{namaMateri:"Sejarah Fullstack", type: "Word", file:"History"}], tanggal:"5 Juli 2021"
         },
         {
-            session: 2, judul: "Web Fundamental", materi:[{namaMateri: "History of HTML", type: "Power Point", file: ""}], tanggal:"7 Juli 2021", file:""
+            session: 2, judul: "Web Fundamental", materi:[{namaMateri: "History of HTML", type: "Power Point", file: ""}], tanggal:"7 Juli 2021"
         },
         {
-            session: 3, judul: "Web Fundamental", materi:[{namaMateri: "History of CSS", type: "Power Point", file: ""}], tanggal:"9 Juli 2021", file:""
+            session: 3, judul: "Web Fundamental", materi:[{namaMateri: "History of CSS", type: "Power Point", file: ""}], tanggal:"9 Juli 2021"
         },
         {
-            session: 4, judul: "Web Fundamental", materi:[{namaMateri: "History of Javascript", type: "Power Point", file: ""}], tanggal:"12 Juli 2021", file:""
+            session: 4, judul: "Web Fundamental", materi:[{namaMateri: "History of Javascript", type: "Power Point", file: ""}], tanggal:"12 Juli 2021"
         },
         {
-            session: 5, judul: "Web Fundamental", materi:[{namaMateri: "Jquery", type: "Power Point", file: ""}], tanggal:"14 Juli 2021", file:""
+            session: 5, judul: "Web Fundamental", materi:[{namaMateri: "Jquery", type: "Power Point", file: ""}], tanggal:"14 Juli 2021"
         },]
     },
         {
@@ -26,19 +26,19 @@ export const state = () => {
         waktuBootcamp: {mulai: "3 Agustus 2021", selesai: "15 Desember 2021"},
         img: "https://yt3.ggpht.com/ytc/AKedOLS9dWMeg56U0ZEab4dixDnNuhqnp824JIOBuZcc=s900-c-k-c0x00ffffff-no-rj",
         jadwal:[{
-            session: 1, judul: "Web Fundamental", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"3 Agustus 2021", file:""
+            session: 1, judul: "Web Fundamental", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"3 Agustus 2021"
         },
         {
-            session: 2, judul: "Framework Frontend", materi:[{namaMateri: "Node Js", type: "Power Point", file: ""}], tanggal:"5 Agustus 2021", file:""
+            session: 2, judul: "Framework Frontend", materi:[{namaMateri: "Node Js", type: "Power Point", file: ""}], tanggal:"5 Agustus 2021"
         },
         {
-            session: 3, judul: "Angular", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"7 Agustus 2021", file:""
+            session: 3, judul: "Angular", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"7 Agustus 2021"
         },
         {
-            session: 4, judul: "React", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"9 Agustus 2021", file:""
+            session: 4, judul: "React", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"9 Agustus 2021"
         },
         {
-            session: 5, judul: "Vue", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"14 Juli 2021", file:""
+            session: 5, judul: "Vue", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"14 Juli 2021"
         },]
     },{
         name : "Backend 5", 
@@ -46,19 +46,19 @@ export const state = () => {
         waktuBootcamp: {mulai: "3 Agustus 2021", selesai: "15 Desember 2021"},
         img: "https://yt3.ggpht.com/ytc/AKedOLS9dWMeg56U0ZEab4dixDnNuhqnp824JIOBuZcc=s900-c-k-c0x00ffffff-no-rj",
         jadwal:[{
-            session: 1, judul: "Pengenalan", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"3 Agustus 2021", file:""
+            session: 1, judul: "Pengenalan", materi:[{namaMateri: "Introduction", type: "Power Point", file: ""}], tanggal:"3 Agustus 2021"
         },
         {
-            session: 2, judul: "Framework Backend", materi:[{namaMateri: "PHP Language", type: "Power Point", file: ""}], tanggal:"5 Agustus 2021", file:""
+            session: 2, judul: "Framework Backend", materi:[{namaMateri: "PHP Language", type: "Power Point", file: ""}], tanggal:"5 Agustus 2021"
         },
         {
-            session: 3, judul: "Database", materi:[{namaMateri: "MySQL", type: "Power Point", file: ""}], tanggal:"7 Agustus 2021", file:""
+            session: 3, judul: "Database", materi:[{namaMateri: "MySQL", type: "Power Point", file: ""}], tanggal:"7 Agustus 2021"
         },
         {
-            session: 4, judul: "Media Database", materi:[{namaMateri: "Amazone Web Service (AWS)", type: "Power Point", file: ""}], tanggal:"9 Agustus 2021", file:""
+            session: 4, judul: "Media Database", materi:[{namaMateri: "Amazone Web Service (AWS)", type: "Power Point", file: ""}], tanggal:"9 Agustus 2021"
         },
         {
-            session: 5, judul: "Pembuatan API", materi:[{namaMateri: "Express Js", type: "Power Point", file: ""}], tanggal:"14 Juli 2021", file:""
+            session: 5, judul: "Pembuatan API", materi:[{namaMateri: "Express Js", type: "Power Point", file: ""}], tanggal:"14 Juli 2021"
         },]
     }], Member: {
              tutorSPV:[{
@@ -144,6 +144,20 @@ export const actions = {
     },
     createMateri({commit}, dat){
         commit("addMateri", dat);
+    }
+}
+
+export const mutations = {
+    ngedit(state, list){
+        const data = state.data.filter((x)=> x.name == list.name);
+        const datas = data[0]
+        const listed = datas.jadwal.filter((y)=> y.session != list.jadwal.session)
+        listed.push(list.jadwal);
+        listed.sort((a,b)=>{return a.session - b.session})
+        datas.jadwal = listed;
+        console.log(datas)
+        state.data = state.data.filter((z)=> z.name != list.name);
+        state.data.push(datas)
     }
 }
 
