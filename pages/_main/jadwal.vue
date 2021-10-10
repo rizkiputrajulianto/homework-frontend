@@ -45,7 +45,7 @@
 export default {
   data() {
     return {
-      id: 0, //untuk data kelas
+      id: this.$route.params.main, //untuk data kelas
       mat: 1, //untuk sesi
       // kelas: this.$route.params.id
       // jadwals: "Fullstack",

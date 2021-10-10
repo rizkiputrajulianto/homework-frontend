@@ -74,6 +74,13 @@ export default {
         jadwal: this.list,
       };
       this.$store.dispatch("jadwal/edit", data);
+      let id = 0;
+      this.$store.state.jadwal.data.forEach((x, i) => {
+        if (x.name == data.name) {
+          id = i;
+        }
+      });
+      this.$router.push("/" + id + "/jadwal");
     },
   },
 };

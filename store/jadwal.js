@@ -158,7 +158,7 @@ export const mutations = {
         console.log(datas)
         state.data = state.data.filter((z)=> z.name != list.name);
         state.data.push(datas)
-    }
+    },
 }
 
 // export const mutations = {
