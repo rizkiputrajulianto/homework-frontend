@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="navbar navbar-bg bg-warning"></div>
     <nav class="navbar navbar-expand-lg main-navbar">
       <form class="form-inline mr-auto">
         <ul class="navbar-nav mr-3 d-flex justify-content-between">
