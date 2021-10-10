@@ -28,7 +28,17 @@ export default {
           name: "Semua Kelas",
           icon: "fas fa-home",
           to: "/all-class"
-        }
+        },
+        {
+          name: "Kelasku",
+          icon: "fas fa-bookmark",
+          to: "/"
+        },
+        {
+          name: "Presensi",
+          icon: "fas fa-user",
+          to: "/"
+        },
       ]
     }
   },
