@@ -86,7 +86,9 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL: "https://service-classroom.herokuapp.com"
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
@@ -97,9 +99,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
-  server: {
-    host: "0.0.0.0",
-    port: 8000 // default: 3000
+
   }
 }
