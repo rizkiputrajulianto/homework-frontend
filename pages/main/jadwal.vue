@@ -1,8 +1,5 @@
 <template>
   <div>
-    <!-- {{ listSession }}
-    <hr />
-    {{ listMateri }} -->
     <div class="row">
       <div class="col-md-3 w-100">
         <div class="row">
@@ -41,7 +38,7 @@ export default {
   data() {
     return {
       id: 0, //untuk data kelas
-      mat: 0, //untuk sesi
+      mat: 1, //untuk sesi
       // kelas: this.$route.params.id
       // jadwals: "Fullstack",
     };
