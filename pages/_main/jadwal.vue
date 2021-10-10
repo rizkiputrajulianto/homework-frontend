@@ -1,7 +1,5 @@
 <template>
   <div>
-    {{ listSession }}
-    <hr />
     <div class="row">
       <div class="col-md-3 w-100">
         <div class="row">
